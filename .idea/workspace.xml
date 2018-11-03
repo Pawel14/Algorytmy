@@ -4,7 +4,6 @@
     <list default="true" id="dbdf917f-1fa7-4b1f-9a95-39f4da212af8" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/LinearSearch.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SrodkowyElemTablicy.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/WypisywanieDoPodanejLiczby.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SrodkowyElemTablicy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SrodkowyElemTablicy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SrodkowyElemTablicy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
@@ -32,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WypisywanieDoPodanejLiczby.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WypisywanieDoPodanejLiczby.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WypisywanieDoPodanejLiczby.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
@@ -290,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541244104946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="srodkowy element z tablicy">
+      <created>1541247223053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541247223053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -330,7 +336,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sortowanie algorytmu" />
-    <option name="LAST_COMMIT_MESSAGE" value="sortowanie algorytmu" />
+    <MESSAGE value="srodkowy element z tablicy" />
+    <option name="LAST_COMMIT_MESSAGE" value="srodkowy element z tablicy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -396,17 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WypisywanieDoPodanejLiczby.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-          <folding>
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SrodkowyElemTablicy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -415,6 +411,17 @@
             <element signature="imports" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
             <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WypisywanieDoPodanejLiczby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
