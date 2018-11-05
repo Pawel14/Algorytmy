@@ -1,12 +1,13 @@
 import java.util.List;
 
-public class Osoba  implements SearchAlgorithm{
+public class Person implements Comparable<Person> {
+
     private String name;
     private String surname;
     private Integer age;
 
 
-    public Osoba(String name, String surname, Integer age) {
+    public Person(String name, String surname, Integer age) {
         this.name = name;
         this.surname = surname;
         this.age = age;
@@ -37,15 +38,20 @@ public class Osoba  implements SearchAlgorithm{
         this.age = age;
     }
 
-
-    @Override
-    public Integer search(Comparable value, List input) {
-        return null;
+    public boolean equals(Object obj){
+        if(obj instanceof Person){
+            return this.age.equals((Person)obj);
+        }
+        return false;
     }
 
     @Override
-    public Integer search(Comparable value, Comparable[] input) {
-
-        return null;
+    public int compareTo(Person o) {
+        if(this.age > o.getAge()){
+            return 1;
+        }else if (this.age < o.getAge()){
+            return -1;
+        }
+        return 0;
     }
 }

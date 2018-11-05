@@ -27,6 +27,7 @@ public class WypisywanieDoPodanejLiczby {
         return indeks;
     }
         public static void main(String[] args) {
+
         new WypisywanieDoPodanejLiczby().srodkowyElement(3);
     }
 }
